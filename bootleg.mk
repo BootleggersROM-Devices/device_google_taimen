@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Include DU common configuration
-include vendor/liquid/config/common_full_phone.mk
+include vendor/bootleggers/config/common_full_phone.mk
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -25,7 +25,7 @@ $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 export TARGET_DEVICE := taimen
 
 # Override AOSP build properties
-PRODUCT_NAME := liquid_taimen
+PRODUCT_NAME := bootleg_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2 XL
