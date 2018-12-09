@@ -43,3 +43,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/googleapps/googleapps.mk)
+
+BOOTLEGGERS_BUILD_TYPE := Shishufied
