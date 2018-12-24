@@ -45,3 +45,5 @@ $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/googleapps/googleapps.mk)
 
 BOOTLEGGERS_BUILD_TYPE := Shishufied
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2880
