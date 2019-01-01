@@ -42,7 +42,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootleggers.maintainer=slothdabski
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
-$(call inherit-product-if-exists, vendor/googleapps/googleapps.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 BOOTLEGGERS_BUILD_TYPE := Shishufied
 TARGET_SCREEN_WIDTH := 1440
